@@ -67,7 +67,7 @@
     color: #fff;
     text-align: center;
     width: 100%;
-    max-width: 900px;
+    max-width: 1200px;
     padding: 0 24px;
     display: flex;
     align-items: center;
@@ -77,19 +77,19 @@
 .hero-copy-inner {
     background: rgba(0,0,0,0.45);
     backdrop-filter: blur(4px);
-    padding: 32px 48px;
+    padding: 32px 64px;
     border-radius: 12px;
     box-shadow: 0 8px 32px rgba(0,0,0,0.2);
 }
 
 .hero-copy h1 {
     font-family: 'Playfair Display', serif;
-    font-size: clamp(36px, 6vw, 72px);
+    font-size: clamp(48px, 8vw, 96px);
     margin: 0 0 12px;
 }
 
 .hero-copy p {
-    font-size: clamp(14px, 1.8vw, 18px);
+    font-size: clamp(16px, 2.2vw, 22px);
     color: rgba(255,255,255,0.95);
     margin: 0;
 }
