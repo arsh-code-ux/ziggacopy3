@@ -1,0 +1,30 @@
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+.pnpm-debug.log
+
+# Build outputs
+build/
+dist/
+
+# Local env
+.env
+.local
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Logs
+logs
+*.log
+
+# Misc
+coverage/
+coverage-final.json
+*.tgz
